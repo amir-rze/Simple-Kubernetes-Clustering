@@ -7,7 +7,11 @@ In this Distributed Systems course project focusing on Clustering, students will
 
 ## Requirements
 Kubernetes Cluster Creation: Establish a local Kubernetes cluster. Utilize virtual machines (like VirtualBox) to add nodes. Cloud managed services are not to be used. Use Google/Youtube to find out how to create a cluster.
+
 Web Service Development and Deployment: Create, containerize, and deploy a web service with a ‘GET /instance-id‘ API.
+
 Service Instances: Ensure a minimum of two web service instances/pods are operational at all times.
+
 Load Balancing: Implement round-robin load balancing, ideally with Nginx. However, any other load balancer is acceptable.
+
 Unique Instance Identification: Each API call to ‘/instance-id‘ endpoint must return a unique identifier (e.g., unique Pod ID) from the handling instance/pod. The ID should not be hard coded.
